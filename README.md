@@ -381,7 +381,7 @@ Tails: /m/0jjw	0.75	/m/02j62	0.2222222222222222	/m/01mkq	0.21428571428571427	/m/
         <td>.755</td>
         <td>.554</td>
         <td>.585</td>
-        <td>.591</td>
+        <td><ins>.591</ins></td>
         <td>.621</td>
     </tr>
     <tr>
@@ -394,7 +394,7 @@ Tails: /m/0jjw	0.75	/m/02j62	0.2222222222222222	/m/01mkq	0.21428571428571427	/m/
         <td>.803</td>
         <td>.772</td>
         <td>.467</td>
-        <td>.705</td>
+        <td><ins>.705</ins></td>
         <td>.687</td>
         <td>.830</td>
         <td>.610</td>
@@ -512,39 +512,39 @@ Tails: /m/0jjw	0.75	/m/02j62	0.2222222222222222	/m/01mkq	0.21428571428571427	/m/
     </tr>
     <tr>
         <td>NBFNet</td>
-        <td>.617</td>
-        <td>.719</td>
-        <td>.659</td>
-        <td>.661</td>
-        <td>.664</td>
-        <td>.830</td>
-        <td>.787</td>
-        <td>.554</td>
+        <td><b>.617</b></td>
+        <td><b>.719</b></td>
+        <td><b>.659</b></td>
+        <td><b>.661</b></td>
+        <td><b>.664</b></td>
+        <td><b>.830</b></td>
+        <td><ins>.787</ins></td>
+        <td><b>.554</b></td>
         <td>.700</td>
-        <td>.718</td>
-        <td>.925</td>
-        <td>.694</td>
-        <td>.688</td>
-        <td>.640</td>
-        <td>.737</td>
+        <td><ins>.718</ins></td>
+        <td><ins>.925</ins></td>
+        <td><b>.694</b></td>
+        <td><b>.688</b></td>
+        <td><b>.640</b></td>
+        <td><b>.737</b></td>
     </tr>
     <tr>
         <td>AStarNet</td>
-        <td>.534</td>
-        <td>.673</td>
-        <td>.647</td>
-        <td>.637</td>
-        <td>.623</td>
-        <td>.819</td>
-        <td>.804</td>
-        <td>.541</td>
-        <td>.736</td>
-        <td>.725</td>
-        <td>.960</td>
-        <td>.690</td>
-        <td>.646</td>
+        <td><ins>.534</ins></td>
+        <td><ins>.673</ins></td>
+        <td><ins>.647</ins></td>
+        <td><ins>.637</ins></td>
+        <td><ins>.623</ins></td>
+        <td><ins>.819</ins></td>
+        <td><b>.804</b></td>
+        <td><ins>.541</ins></td>
+        <td><b>.736</b></td>
+        <td><b>.725</b></td>
+        <td><b>.960</b></td>
+        <td><ins>.690</ins></td>
+        <td><ins>.646</ins></td>
         <td>.440</td>
-        <td>.684</td>
+        <td><ins>.684</ins></td>
     </tr>
     <tr>
         <td>RED-GNN</td>
@@ -685,7 +685,7 @@ Tails: /m/0jjw	0.75	/m/02j62	0.2222222222222222	/m/01mkq	0.21428571428571427	/m/
     </tr>
     <tr>
         <td>ConGLR</td>
-        <td>.685</td>
+        <td><ins>.685</ins></td>
         <td>.659</td>
         <td>.694</td>
         <td>.699</td>
@@ -696,15 +696,15 @@ Tails: /m/0jjw	0.75	/m/02j62	0.2222222222222222	/m/01mkq	0.21428571428571427	/m/
         <td>.753</td>
         <td>.711</td>
         <td>.865</td>
-        <td>.889</td>
-        <td>.853</td>
+        <td><b>.889</b></td>
+        <td><ins>.853</ins></td>
         <td>.769</td>
-        <td>.844</td>
+        <td><ins>.844</ins></td>
     </tr>
     <tr>
         <td>COMPILE</td>
         <td>.622</td>
-        <td>.759</td>
+        <td><ins>.759</ins></td>
         <td>.735</td>
         <td>.724</td>
         <td>.710</td>
@@ -714,7 +714,7 @@ Tails: /m/0jjw	0.75	/m/02j62	0.2222222222222222	/m/01mkq	0.21428571428571427	/m/
         <td>.746</td>
         <td>.743</td>
         <td>.765</td>
-        <td>.888</td>
+        <td><ins>.888</ins></td>
         <td>.838</td>
         <td>.574</td>
         <td>.766</td>
@@ -726,7 +726,7 @@ Tails: /m/0jjw	0.75	/m/02j62	0.2222222222222222	/m/01mkq	0.21428571428571427	/m/
         <td>.679</td>
         <td>.696</td>
         <td>.656</td>
-        <td>.878</td>
+        <td><ins>.878</ins></td>
         <td>.815</td>
         <td>.595</td>
         <td>.773</td>
@@ -763,7 +763,7 @@ Tails: /m/0jjw	0.75	/m/02j62	0.2222222222222222	/m/01mkq	0.21428571428571427	/m/
         <td>.600</td>
         <td>.593</td>
         <td>.798</td>
-        <td>.842</td>
+        <td><ins>.842</ins></td>
         <td>.599</td>
         <td>.765</td>
         <td>.751</td>
@@ -775,38 +775,38 @@ Tails: /m/0jjw	0.75	/m/02j62	0.2222222222222222	/m/01mkq	0.21428571428571427	/m/
     </tr>
     <tr>
         <td>NBFNet</td>
-        <td>.688</td>
-        <td>.794</td>
-        <td>.776</td>
-        <td>.784</td>
-        <td>.760</td>
-        <td>.941</td>
-        <td>.910</td>
-        <td>.863</td>
-        <td>.899</td>
-        <td>.903</td>
-        <td>.970</td>
+        <td><b>.688</b></td>
+        <td><b>.794</b></td>
+        <td><b>.776</b></td>
+        <td><b>.784</b></td>
+        <td><b>.760</b></td>
+        <td><b>.941</b></td>
+        <td><b>.910</b></td>
+        <td><b>.863</b></td>
+        <td><b>.899</b></td>
+        <td><b>.903</b></td>
+        <td><ins>.970</ins></td>
         <td>.861</td>
-        <td>.868</td>
-        <td>.819</td>
-        <td>.880</td>
+        <td><b>.868</b></td>
+        <td><b>.819</b></td>
+        <td><b>.880</b></td>
     </tr>
     <tr>
         <td>AStarNet</td>
         <td>.651</td>
         <td>.753</td>
-        <td>.754</td>
-        <td>.761</td>
-        <td>.730</td>
+        <td><ins>.754</ins></td>
+        <td><ins>.761</ins></td>
+        <td><ins>.730</ins></td>
         <td>.875</td>
         <td>.832</td>
-        <td>.702</td>
-        <td>.797</td>
-        <td>.802</td>
-        <td>.975</td>
+        <td><ins>.702</ins></td>
+        <td><ins>.797</ins></td>
+        <td><ins>.802</ins></td>
+        <td><b>.975</b></td>
         <td>.828</td>
         <td>.794</td>
-        <td>.775</td>
+        <td><ins>.775</ins></td>
         <td>.843</td>
     </tr>
     <tr>
@@ -891,7 +891,7 @@ Tails: /m/0jjw	0.75	/m/02j62	0.2222222222222222	/m/01mkq	0.21428571428571427	/m/
         <td>.449</td>
         <td>.691</td>
         <td>.748</td>
-        <td>.726</td>
+        <td><ins>.726</ins></td>
         <td>.653</td>
     </tr>
     <tr>
@@ -961,8 +961,8 @@ Tails: /m/0jjw	0.75	/m/02j62	0.2222222222222222	/m/01mkq	0.21428571428571427	/m/
         <td>.648</td>
         <td>.659</td>
         <td>.518</td>
-        <td>.805</td>
-        <td>.812</td>
+        <td><ins>.805</ins></td>
+        <td><ins>.812</ins></td>
         <td>.209</td>
         <td>.586</td>
     </tr>
@@ -1022,39 +1022,39 @@ Tails: /m/0jjw	0.75	/m/02j62	0.2222222222222222	/m/01mkq	0.21428571428571427	/m/
     </tr>
     <tr>
         <td>NBFNet</td>
-        <td>.704</td>
-        <td>.825</td>
-        <td>.801</td>
-        <td>.812</td>
-        <td>.786</td>
-        <td>.871</td>
-        <td>.834</td>
-        <td>.760</td>
-        <td>.812</td>
-        <td>.819</td>
+        <td><b>.704</b></td>
+        <td><b>.825</b></td>
+        <td><b>.801</b></td>
+        <td><b>.812</b></td>
+        <td><b>.786</b></td>
+        <td><b>.871</b></td>
+        <td><b>.834</b></td>
+        <td><b>.760</b></td>
+        <td><b>.812</b></td>
+        <td><b>.819</b></td>
         <td>.723</td>
-        <td>.841</td>
-        <td>.869</td>
-        <td>.807</td>
-        <td>.810</td>
+        <td><b>.841</b></td>
+        <td><b>.869</b></td>
+        <td><b>.807</b></td>
+        <td><b>.810</b></td>
     </tr>
     <tr>
         <td>AStarNet</td>
-        <td>.601</td>
-        <td>.764</td>
-        <td>.771</td>
-        <td>.779</td>
-        <td>.729</td>
-        <td>.845</td>
-        <td>.832</td>
-        <td>.669</td>
-        <td>.795</td>
-        <td>.786</td>
-        <td>.775</td>
+        <td><ins>.601</ins></td>
+        <td><ins>.764</ins></td>
+        <td><ins>.771</ins></td>
+        <td><ins>.779</ins></td>
+        <td><ins>.729</ins></td>
+        <td><ins>.845</ins></td>
+        <td><ins>.832</ins></td>
+        <td><ins>.669</ins></td>
+        <td><ins>.795</ins></td>
+        <td><ins>.786</ins></td>
+        <td><b>.775</b></td>
         <td>.791</td>
         <td>.791</td>
         <td>.528</td>
-        <td>.721</td>
+        <td><ins>.721</ins></td>
     </tr>
     <tr>
         <td>RED-GNN</td>
@@ -1068,7 +1068,7 @@ Tails: /m/0jjw	0.75	/m/02j62	0.2222222222222222	/m/01mkq	0.21428571428571427	/m/
         <td>.633</td>
         <td>.774</td>
         <td>.761</td>
-        <td>.730</td>
+        <td><ins>.730</ins></td>
         <td>.762</td>
         <td>.809</td>
         <td>.533</td>
@@ -1154,7 +1154,7 @@ Tails: /m/0jjw	0.75	/m/02j62	0.2222222222222222	/m/01mkq	0.21428571428571427	/m/
         <td>.402</td>
         <td>.383</td>
         <td>.387</td>
-        <td>.393</td>
+        <td><ins>.393</ins></td>
         <td>.391</td>
     </tr>
     <tr>
@@ -1165,7 +1165,7 @@ Tails: /m/0jjw	0.75	/m/02j62	0.2222222222222222	/m/01mkq	0.21428571428571427	/m/
         <td>.426</td>
         <td>.428</td>
         <td>.699</td>
-        <td>.694</td>
+        <td><ins>.694</ins></td>
         <td>.400</td>
         <td>.630</td>
         <td>.606</td>
@@ -1214,7 +1214,7 @@ Tails: /m/0jjw	0.75	/m/02j62	0.2222222222222222	/m/01mkq	0.21428571428571427	/m/
     <tr>
         <td>COMPILE</td>
         <td>.265</td>
-        <td>306</td>
+        <td><b>306</b></td>
         <td>-</td>
         <td>-</td>
         <td>~.285</td>
@@ -1285,39 +1285,39 @@ Tails: /m/0jjw	0.75	/m/02j62	0.2222222222222222	/m/01mkq	0.21428571428571427	/m/
     </tr>
     <tr>
         <td>NBFNet</td>
-        <td>.466</td>
-        <td>.538</td>
-        <td>.494</td>
-        <td>.478</td>
-        <td>.494</td>
-        <td>.743</td>
+        <td><b>.466</b></td>
+        <td><ins>.538</ins></td>
+        <td><b>.494</b></td>
+        <td><b>.478</b></td>
+        <td><b>.494</b></td>
+        <td><b>.743</b></td>
         <td>.693</td>
-        <td>.452</td>
-        <td>.641</td>
-        <td>.632</td>
-        <td>.737</td>
-        <td>.520</td>
-        <td>.508</td>
-        <td>.426</td>
-        <td>.548</td>
+        <td><b>.452</b></td>
+        <td><ins>.641</ins></td>
+        <td><ins>.632</ins></td>
+        <td><ins>.737</ins></td>
+        <td><b>.520</b></td>
+        <td><b>.508</b></td>
+        <td><b>.426</b></td>
+        <td><b>.548</b></td>
     </tr>
     <tr>
         <td>AStarNet</td>
-        <td>.427</td>
+        <td><ins>.427</ins></td>
         <td>.514</td>
-        <td>.483</td>
-        <td>.469</td>
-        <td>.473</td>
-        <td>.730</td>
-        <td>.704</td>
-        <td>.448</td>
-        <td>.654</td>
-        <td>.634</td>
-        <td>.769</td>
-        <td>.501</td>
-        <td>.476</td>
+        <td><ins>.483</ins></td>
+        <td><ins>.469</ins></td>
+        <td><ins>.473</ins></td>
+        <td><ins>.730</ins></td>
+        <td><b>.704</b></td>
+        <td><ins>.448</ins></td>
+        <td><b>.654</b></td>
+        <td><b>.634</b></td>
+        <td><b>.769</b></td>
+        <td><ins>.501</ins></td>
+        <td><ins>.476</ins></td>
         <td>.294</td>
-        <td>.510</td>
+        <td><ins>.510</ins></td>
     </tr>
     <tr>
         <td>RED-GNN</td>
@@ -1417,7 +1417,7 @@ Tails: /m/0jjw	0.75	/m/02j62	0.2222222222222222	/m/01mkq	0.21428571428571427	/m/
         <td>.483</td>
         <td>.621</td>
         <td>.606</td>
-        <td>.647</td>
+        <td><b>.647</b></td>
         <td>.589</td>
     </tr>
     <tr>
@@ -1458,7 +1458,7 @@ Tails: /m/0jjw	0.75	/m/02j62	0.2222222222222222	/m/01mkq	0.21428571428571427	/m/
     </tr>
     <tr>
         <td>ConGLR</td>
-        <td>.491</td>
+        <td><ins>.491</ins></td>
         <td>.479</td>
         <td>.520</td>
         <td>.511</td>
@@ -1469,8 +1469,8 @@ Tails: /m/0jjw	0.75	/m/02j62	0.2222222222222222	/m/01mkq	0.21428571428571427	/m/
         <td>.736</td>
         <td>.674</td>
         <td>.625</td>
-        <td>.719</td>
-        <td>.638</td>
+        <td><b>.719</b></td>
+        <td><ins>.638</ins></td>
         <td>.573</td>
         <td>.639</td>
     </tr>
@@ -1487,7 +1487,7 @@ Tails: /m/0jjw	0.75	/m/02j62	0.2222222222222222	/m/01mkq	0.21428571428571427	/m/
         <td>.737</td>
         <td>.701</td>
         <td>.550</td>
-        <td>.685</td>
+        <td><ins>.685</ins></td>
         <td>.611</td>
         <td>.287</td>
         <td>.533</td>
@@ -1548,39 +1548,39 @@ Tails: /m/0jjw	0.75	/m/02j62	0.2222222222222222	/m/01mkq	0.21428571428571427	/m/
     </tr>
     <tr>
         <td>NBFNet</td>
-        <td>.524</td>
-        <td>.602</td>
-        <td>.573</td>
-        <td>.577</td>
-        <td>.569</td>
-        <td>.895</td>
-        <td>.870</td>
-        <td>.750</td>
-        <td>.821</td>
-        <td>.834</td>
-        <td>.745</td>
+        <td><b>.524</b></td>
+        <td><b>.602</b></td>
+        <td><b>.573</b></td>
+        <td><b>.577</b></td>
+        <td><b>.569</b></td>
+        <td><b>.895</b></td>
+        <td><b>.870</b></td>
+        <td><b>.750</b></td>
+        <td><b>.821</b></td>
+        <td><b>.834</b></td>
+        <td><ins>.745</ins></td>
         <td>.665</td>
-        <td>.666</td>
-        <td>.634</td>
-        <td>.678</td>
+        <td><b>.666</b></td>
+        <td><ins>.634</ins></td>
+        <td><b>.678</b></td>
     </tr>
     <tr>
         <td>AStarNet</td>
         <td>.487</td>
-        <td>.575</td>
-        <td>.569</td>
-        <td>.563</td>
-        <td>.548</td>
-        <td>.843</td>
-        <td>.822</td>
-        <td>.631</td>
-        <td>.787</td>
-        <td>.771</td>
-        <td>.788</td>
+        <td><ins>.575</ins></td>
+        <td><ins>.569</ins></td>
+        <td><ins>.563</ins></td>
+        <td><ins>.548</ins></td>
+        <td><ins>.843</ins></td>
+        <td><ins>.822</ins></td>
+        <td><ins>.631</ins></td>
+        <td><ins>.787</ins></td>
+        <td><ins>.771</ins></td>
+        <td><b>.788</b></td>
         <td>.653</td>
         <td>.624</td>
         <td>.575</td>
-        <td>.660</td>
+        <td><ins>.660</ins></td>
     </tr>
     <tr>
         <td>RED-GNN</td>
@@ -1637,7 +1637,7 @@ INDIGO was trained for 3000 epochs, a learning rate of 0.001 and weight decay of
 
 The training of selected approaches on the biggest benchmark dataset FB15k-237 V4 took for Anyburl 10 minutes, NBFNet 44 minutes, NeuralLP 2.5 hours, DRUM 6 hours, NodePiece 19 hours, GrAIL 38 hours and SNRI 63.2 hours.
 
-### Implementatons
+### Implementations
 
 | Approach | URL |
 | - | - |
