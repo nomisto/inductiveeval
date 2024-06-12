@@ -167,10 +167,10 @@ Tails: /m/0jjw	0.75	/m/02j62	0.2222222222222222	/m/01mkq	0.21428571428571427	/m/
         <td>.856</td>
         <td>.929</td>
         <td>.707</td>
-        <td>.929</td>
-        <td>.855</td>
+        <td><b>.929</b></td>
+        <td><ins>.855</ins></td>
         <td>.811</td>
-        <td>.949</td>
+        <td><ins>.949</ins></td>
         <td>.944</td>
         <td>.816</td>
         <td>.880</td>
@@ -231,11 +231,11 @@ Tails: /m/0jjw	0.75	/m/02j62	0.2222222222222222	/m/01mkq	0.21428571428571427	/m/
     </tr>
     <tr>
         <td>NodePiece</td>
-        <td>.873</td>
+        <td><ins>.873</ins></td>
         <td>.939</td>
         <td>.944</td>
-        <td>.949</td>
-        <td>.926</td>
+        <td><ins>.949</ins></td>
+        <td><ins>.926</ins></td>
         <td>.830</td>
         <td>.886</td>
         <td>.785</td>
@@ -245,25 +245,25 @@ Tails: /m/0jjw	0.75	/m/02j62	0.2222222222222222	/m/01mkq	0.21428571428571427	/m/
         <td>.901</td>
         <td>.936</td>
         <td>.893</td>
-        <td>.905</td>
+        <td><ins>905</ins></td>
     </tr>
     <tr>
         <td>NBFNet</td>
         <td>.834</td>
-        <td>.949</td>
-        <td>.951</td>
-        <td>.960</td>
+        <td><ins>.949</ins></td>
+        <td><ins>.951</ins></td>
+        <td><b>.960</b></td>
         <td>.924</td>
-        <td>.948</td>
+        <td><b>.948</b></td>
         <td>.905</td>
-        <td>.893</td>
-        <td>.890</td>
-        <td>.909</td>
-        <td>.908</td>
-        <td>.956</td>
-        <td>.968</td>
-        <td>.939</td>
-        <td>.943</td>
+        <td><b>.893</b></td>
+        <td><ins>.890</ins></td>
+        <td><b>.909</b></td>
+        <td><ins>.908</ins></td>
+        <td><b>.956</b></td>
+        <td><b>.968</b></td>
+        <td><b>.939</b></td>
+        <td><b>.943</b></td>
     </tr>
     <tr>
         <td>AStarNet</td>
@@ -272,12 +272,12 @@ Tails: /m/0jjw	0.75	/m/02j62	0.2222222222222222	/m/01mkq	0.21428571428571427	/m/
         <td>.904</td>
         <td>.916</td>
         <td>.844</td>
-        <td>.877</td>
+        <td><ins>.877</ins></td>
         <td>.836</td>
         <td>.715</td>
         <td>.799</td>
         <td>.807</td>
-        <td>.940</td>
+        <td><b>.940</b></td>
         <td>.899</td>
         <td>.860</td>
         <td>.828</td>
@@ -303,11 +303,11 @@ Tails: /m/0jjw	0.75	/m/02j62	0.2222222222222222	/m/01mkq	0.21428571428571427	/m/
     </tr>
     <tr>
         <td>Baseline</td>
-        <td>.887</td>
-        <td>.963</td>
-        <td>.954</td>
-        <td>.949</td>
-        <td>.938</td>
+        <td><b>.887</b></b></td>
+        <td><b>.963</b></td>
+        <td><b>.954</b></td>
+        <td><ins>.949</ins></td>
+        <td><b>.938</b></td>
         <td>.087</td>
         <td>.145</td>
         <td>.590</td>
@@ -315,8 +315,8 @@ Tails: /m/0jjw	0.75	/m/02j62	0.2222222222222222	/m/01mkq	0.21428571428571427	/m/
         <td>.240</td>
         <td>.761</td>
         <td>.912</td>
-        <td>.945</td>
-        <td>.914</td>
+        <td><ins>.945</ins></td>
+        <td><ins>.914</ins></td>
         <td>.883</td>
     </tr>
 </table>
@@ -1602,6 +1602,54 @@ Tails: /m/0jjw	0.75	/m/02j62	0.2222222222222222	/m/01mkq	0.21428571428571427	/m/
     </tr>
 </table>
 
-## Hyperparameter of approaches
+## Approaches
 
-For AnyBURL we learned rules for 1000 seconds, limiting the search only to rules that can be applied in the inductive setting. NeuralLP and DRUM were trained 10 epochs using a hidden dimension of 128, batch size of 64, and learning rate 0.001. GraIL was trained using a learning rate of 0.01. ConGLR, CoMPILE, SNRI use a learning rate of $0.001$. GraIL, ConGLR, CoMPILE, SNRI use a l2 penalty of $5e-4$, a margin loss with a margin of $10$, 3 GNN layers with a hidden dimension of $32$ and a dropout of $0.5$. GraIL was trained for 50 epochs, ConGLR for 10 epochs, CoMPILE and SNRI for 30 epochs. NBFNet and AStarNet were trained for 20 epochs using a learning rate of 0.005, 6 GNN layers and a hidden dimension of 32. NodePiece was trained using different hyperparameters for each dataset and version. For example, the number of epochs ranges from 210 to 2500. We refer to the appendix of its respective paper for used hyperparameters. RED-GNN was trained using the hyperparamters released on their codebase, which were tuned using hyperparameter optimization. INDIGO was trained for 3000 epochs, a learning rate of 0.001 and weight decay of 5e-8, a hidden dimension of 64 and a dropout of 0.5. The training of selected approaches on the biggest benchmark dataset FB15k-237 V4 took for Anyburl 10 minutes, NBFNet 44 minutes, NeuralLP 2.5 hours, DRUM 6 hours, NodePiece 19 hours, GrAIL 38 hours and SNRI 63.2 hours.
+### Hyperparameters
+
+For AnyBURL we learned rules for 1000 seconds, limiting the search only to rules that can be applied in the inductive setting (cyclic rules) with a maximum length of 3. 
+```
+MAX_LENGTH_CYCLIC = 3
+ZERO_RULES_ACTIVE = false
+MAX_LENGTH_ACYCLIC = 0
+MAX_LENGTH_GROUNDED_CYCLIC = 0
+```
+
+
+NeuralLP and DRUM were trained 10 epochs using a hidden dimension of 128, batch size of 64, and learning rate 0.001. 
+
+The hyperparameters used for training GraIL; ConGLR, CoMPILE and SNRI are as follows:
+| | epochs | lr | l2 penalty | margin (margin loss) | GNN layers | Hidden dim | dropout |
+| -- | -- | -- | -- | -- | -- | -- | -- | 
+| GraIL | 50 | 0.01 | 5e-4 | 10 | 3 | 32 | 0.5 | 
+| ConGLR | 10 | 0.001 | 5e-4 | 10 | 3 | 32 | 0.5 | 
+| CoMPILE | 30 | 0.001 | 5e-4 | 10 | 3 | 32 | 0.5 | 
+| SNRI | 30 | 0.001 | 5e-4 | 10 | 3 | 32 | 0.5 |
+
+One exception to this is SNRI and NELL v1, v2, v4 where epochs=10 and lr=0.01 created better results.
+
+NBFNet and AStarNet were trained for 20 epochs using a learning rate of 0.005, 6 GNN layers and a hidden dimension of 32. Detailed configs can be seen [here](https://github.com/DeepGraphLearning/AStarNet/tree/master/config/inductive). For NELL we used the configs as trained on fb15k237. 
+
+NodePiece was trained using different hyperparameters for each dataset and version. For example, the number of epochs ranges from 210 to 2500. We refer to the appendix of its respective paper for used hyperparameters. 
+
+RED-GNN was trained using the hyperparamters released on their codebase, which were tuned using hyperparameter optimization. 
+
+INDIGO was trained for 3000 epochs, a learning rate of 0.001 and weight decay of 5e-8, a hidden dimension of 64 and a dropout of 0.5. 
+
+The training of selected approaches on the biggest benchmark dataset FB15k-237 V4 took for Anyburl 10 minutes, NBFNet 44 minutes, NeuralLP 2.5 hours, DRUM 6 hours, NodePiece 19 hours, GrAIL 38 hours and SNRI 63.2 hours.
+
+### Implementatons
+
+| Approach | URL |
+| - | - |
+| NeuralLP | https://github.com/fanyangxyz/Neural-LP |
+| DRUM | https://github.com/alisadeghian/DRUM |
+| AnyBURL | https://web.informatik.uni-mannheim.de/AnyBURL/ |
+| GraIL | https://github.com/kkteru/grail |
+| ConGLR | https://github.com/deepnolearning/ConGLR |
+| CoMPILE | https://github.com/TmacMai/CoMPILE_Inductive_Knowledge_Graph |
+| SNRI | https://github.com/Tebmer/SNRI |
+| INDIGO | https://github.com/shuwen-liu-ox/INDIGO |
+| NodePiece | https://github.com/migalkin/NodePiece |
+| NBFNet | https://github.com/DeepGraphLearning/AStarNet |
+| AStarNet | https://github.com/DeepGraphLearning/AStarNet |
+| RED-GNN | https://github.com/LARS-research/RED-GNN/ |
