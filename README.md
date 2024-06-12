@@ -14,7 +14,7 @@ Run `python baseline.py`
 
 ## Evaluate your approach
 
-Run `python eval.py --dataset {WN18RR,fb237,nell,ilpc_large,ilpc_small} --version {v1,v2,v3,v4} --path PATH`
+Run `python eval.py --dataset {WN18RR,fb237,nell,ilpc_large,ilpc_small} --version {v1,v2,v3,v4} --path PATH` which outputs hits@10 and MRR for sampling-based, non-sampling and tmn evaluation protocol.
 
 where PATH either points to a text file (ending .txt) containing an prediction file analogous to AnyBURL
 

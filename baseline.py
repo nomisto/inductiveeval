@@ -56,9 +56,9 @@ def get_rules(mapped_triples_transductive, mapped_triples_inductive, num_entitie
             for x in intersection_ind:
                 touched_x.add(x)
                 if scores_baseline[x] < 0.:
-                    scores_baseline[x] = 0.0001 * prob
+                    scores_baseline[x] = prob
                 else:
-                    scores_baseline[x] = max(scores_baseline[x], 0.0001 * prob)
+                    scores_baseline[x] = max(scores_baseline[x], prob)
         rules_heads[relation] = scores_baseline
         
     for relation in rules_tails.keys():
@@ -69,9 +69,9 @@ def get_rules(mapped_triples_transductive, mapped_triples_inductive, num_entitie
             for x in intersection_ind:
                 touched_x.add(x)
                 if scores_baseline[x] < 0.:
-                    scores_baseline[x] = 0.0001 * prob
+                    scores_baseline[x] = prob
                 else:
-                    scores_baseline[x] = max(scores_baseline[x], 0.0001 * prob)
+                    scores_baseline[x] = max(scores_baseline[x], prob)
         rules_tails[relation] = scores_baseline
     
     return rules_heads, rules_tails
@@ -109,6 +109,7 @@ from tqdm import tqdm
 for dataset_name in ["fb237", "WN18RR", "nell"]: # "fb237", "WN18RR", "nell"
     for version in ["v1", "v2", "v3", "v4"]: # "v1", "v2", "v3", "v4"
         results = defaultdict(list)
+        results_mrr = defaultdict(list)
         if dataset_name == "WN18RR":
             dataset = InductiveWN18RR(version=version, create_inverse_triples=False)
         elif dataset_name == "nell":
@@ -146,7 +147,9 @@ for dataset_name in ["fb237", "WN18RR", "nell"]: # "fb237", "WN18RR", "nell"
                 use_tqdm=False
             )
             results[version].append(result.to_flat_dict()["both.realistic.hits_at_10"])
+            results_mrr[version].append(result.to_flat_dict()["both.realistic.inverse_harmonic_mean_rank"])
         print(dataset_name, version, "sampled", "hits@10_avg", str(sum(results[version])/ len(results[version])).replace(".", ","), "hits@10_min", str(min(results[version])).replace(".", ","), "hits@10_max", str(max(results[version])).replace(".", ","))
+        print(dataset_name, version, "sampled", "mrr_avg", str(sum(results_mrr[version])/ len(results_mrr[version])).replace(".", ","), "mrr_min", str(min(results_mrr[version])).replace(".", ","), "mrr_max", str(max(results_mrr[version])).replace(".", ","))
         
         test_evaluator = RankBasedEvaluator(
             mode="testing",   # necessary to specify for the inductive mode - this will use inference nodes
